@@ -1,0 +1,6 @@
+home
+about us
+gallary
+register
+login
+contact us

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        div{
+            height: 50px;
+            width:50px;
+            border:blue dotted 5px;
+            background-color: pink;
+        }
+
+        div#mv{
+            transform:translateX(5px) ;
+        }
+        div#dn{
+            transform:translateY(5px);
+        }
+        div#both{
+            transform:translate(50px 50px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        I'm orignal element
+    </div>
+    <div id="mv">
+        Move right
+    </div>
+    <div id="dn">
+        down eliment
+    </div>
+    <div id="both">
+        moving
+    </div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    
+}
+
+#heading{
+    background-color:#241401;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 130px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    border-bottom: solid goldenrod 5px;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+#tag{
+    font-size:small;
+    padding-top:10px;
+}
+
+#image{
+    height: 500px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:50px;
+    background-image:url(assets/1000_F_54604060_hBTGn157WrNZfxZDJE3JItgVpomkOkJw.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#daily{
+    padding-top: 200px;
+}
+
+.s2{
+    height:500px;
+    background-color: #FFFDD0;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.s22{
+    border: solid;
+    margin-left:85px;
+    margin-right:85px ;
+    padding: 70px;
+    background-color:white;
+    color:#241401
+}
+
+h3{
+    font-size: 40px;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#menu{
+    height:500px;
+    background-color: #dabe9d;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+}
+
+.menu{
+    padding-top: 75px;
+    font-size: 30px;
+    color: #241401;
+}
+
+#p1{
+    background-image:url(assets/pic\ 1.avif);
+    
+}
+#p2{
+    background-image:url(assets/pic_2.avif);
+}
+#p3{
+    background-image:url(assets/pic_3.avif);
+}
+
+#offer{
+    background-color: #241401;
+    color: white;
+    text-align: center;
+    height: auto;
+     clear: both;
+}
+
+.pikachu{
+   float: left;
+   margin-left: 180px;
+    margin-top: 30px;
+    height: 300px;
+    width: 190px;
+    background-size: cover;
+    border: white solid;
+}
+
+.offer{
+    font-size:large;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 25px;
+   
+}
+
+#buy{
+    text-transform: uppercase;
+    margin-top:50px;
+    letter-spacing: 3px;
+}
+
+.valid{
+    font-size: smaller;
+    margin-top:25px;
+    word-spacing:2px ;
+    padding-bottom: 50px;
+}
+
+#cream{
+    height: 300px;
+    background-color:#f5f4e7;
+}
+
+.clr{
+    color: #241401;
+    text-align: center;
+    font-size:xx-large;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+#grd{
+    background-color: tomato;
+    width: 300px;
+    height: 150px;
+    border: #f5f4e7 solid;
+    display: inline-block;
+}
+
+.sh{
+    text-transform: uppercase;
+}
+
+#wus{
+    height: 400px;
+    background-color: #dabe9d;
+    padding: 30px 90px;
+}
+
+.wus{
+    height:350px;
+    border:#241401 solid;
+}

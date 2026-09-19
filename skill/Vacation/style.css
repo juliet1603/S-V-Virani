@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    box-sizing: content-box;
+}
+header{
+    height:1000px;
+    width: 2000px;
+    background-image: url(assets/Mountain\ View\ Garden.avif);
+}
+.head{
+    height:90px;
+    width: 1818px;
+    background-color:#7C766F;
+    position:fixed;
+    top: 25px;
+    left: 30px;
+}
+#logo{
+    position: relative;
+    left: 40px;
+    top: 28px;
+}
+.hlink{
+    
+    float: left;
+    position: relative;
+    left: 770px;
+    bottom: 5px;
+    padding-left: 20px;
+    color: white;
+    font-size: large;
+}
+#hlink{
+    float: left;
+    position: relative;
+    left: 1400px;
+    border: solid 1px;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    bottom: 20px;
+}
+h1{
+    position: relative;
+    top: 450px;
+    left: 650px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 90px;
+    font-weight: lighter;
+}
+.title{
+    color: white;
+    position: relative;
+    top: 480px;
+    left: 850px;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.explore{
+    position: relative;
+    top: 550px;
+    left: 880px;
+    background-color: white;
+    border: solid white;
+    height: auto;
+    width: 205px;
+    text-transform: capitalize;
+    border-radius: 25px;
+    font-size: larger;
+    text-align: center;
+    padding: 12px;
+    font-weight: lighter;
+}
+main{
+    position: absolute;
+    font-family:Montserrat;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 75px;
+    font-weight: 500;
+    font-family: Bodoni;
+    color: #3B332C;
+}
+.as{
+    position: relative;
+    top: 200px;
+    left: 200px;
+
+}
+.ors{
+    position: relative;
+    color: #3B332C;
+    text-transform: capitalize;
+    top: 210px;
+    left: 200px;
+    font-size: 25px;
+}
+.para{
+    position: relative;
+    top: 80px;
+    left: 1000px;
+    text-align: left;
+    width: 800px;
+    font-size:24px;
+}
+.learn{
+    position: relative;
+    border: solid 1px;
+    width: 145px;
+    text-align: center;
+    padding: 15px;
+    top: 130px;
+    left: 1000px;
+    border-radius: 25px;
+    font-size: larger;
+    color: #3B332C;
+}
+.choose{
+    position: relative;
+    top: 300px;
+    left: 190px;
+}
+.adv{
+    position: relative;
+    top: 250px;
+    left: 1500px;
+    text-align: left;
+    width: 800px;
+    font-size:24px;
+}
+.img{
+    position: relative;
+}
+.pic{
+    position: relative;
+    border: white solid 1px;
+    height: 480px;
+    width: 300px;
+    top: 500px;
+    float: left;
+}
+.one{
+    background-image: url(assets/1.avif);
+    background-size: cover;
+    background-position: center;
+    left: 220px;
+}
+.two{
+    background-image: url(assets/2.avif);
+    background-size: cover;
+    background-position: center;
+    left: 520px; 
+}
+.three{
+    background-image: url(assets/3.avif);
+    background-size: cover;
+    background-position: center;
+    left: 850px;
+}
+.descriptions{
+    position: relative; 
+    width: 2000px; 
+    height: 200px; 
+    top: 1000px;
+}
+.disc{
+    position: absolute; 
+    height: auto; 
+    width: 300px; 
+    font-family: "Bodoni Moda";
+    color: #3B332C; 
+    font-weight: 300;
+}
+.first{
+    left: 220px;
+}
+.hp{
+    text-transform: capitalize;
+}
+.pg{
+    padding-top: 20px;
+}
+.second{
+    left: 820px;
+}
+.third{
+    left: 1450px;
+}
+.testimonials{
+    position: relative; 
+    width: 2000px; 
+    height: 200px; 
+    top: 1000px;
+}
+.htesti{
+    position: absolute;
+    height: 200px;
+    left: 180px;
+}
+.testi{
+    position: absolute; 
+    height: 600px; 
+    width: 300px; 
+    font-family: "Bodoni Moda";
+    color: #3B332C; 
+    font-weight: 300;
+    top: 150px;
+}
+.i{
+    position: relative;
+    /* top: 150px; */
+    left: 200px;
+}
+.ii{
+    position: relative;
+    bottom: 143px;
+    left: 800px;
+}
+.iii{
+    position: relative;
+    bottom: 303px;
+    left: 1400px;    
+}
+.contact{
+    position: relative;
+    clear: both;
+}
+.hcont{
+    position: relative;
+    top: 1200px;
+    left: 180px;
+}
+.get{
+    position: relative;
+    top: 1240px;
+    left: 180px;
+}
+.gpara{
+    position: relative;
+    width: 300px;
+    top: 1100px;
+    left: 1400px;
+    float: left;
+}
+.form{
+    position: relative;
+    top: 1300px;
+    left: 300px;
+    clear: both;
+}
+.lname{
+    margin-left: 100px;
+}
+.email{
+    position: relative;
+}
+.limage{
+    position: relative;
+    top: 1400px;
+    left: 100px;
+}
+.lGh{
+    position:absolute;
+    top: 5000px;
+    left: 100px;
+    width: 600px;
+}
+.llgh{
+    position: relative;
+    top: 4050px;
+    left: 1400px;
+    float: left;
+}

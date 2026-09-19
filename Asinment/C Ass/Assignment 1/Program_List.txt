@@ -1,0 +1,62 @@
+Here is the numbered list:
+
+1. **Hello World Program** – A basic C program used to display the message "Hello World" on the screen.
+
+2. **Personal Information Program** – A program used to display personal details such as name, roll number, class, and college.
+
+3. **Addition of Two Numbers** – A program that accepts two numbers as input and displays their sum.
+
+4. **Arithmetic Operations Program** – A program that performs addition, subtraction, multiplication, division, and modulus operations on two numbers.
+
+5. **Area and Perimeter of Rectangle** – A program that calculates the area and perimeter of a rectangle using its length and width.
+
+6. **Area and Circumference of Circle** – A program that calculates the area and circumference of a circle using its radius.
+
+7. **Celsius to Fahrenheit Conversion** – A program that converts temperature from Celsius to Fahrenheit using the conversion formula.
+
+8. **Swap Two Numbers Using Third Variable** – A program that exchanges the values of two variables with the help of an additional variable.
+
+9. **Swap Two Numbers Without Third Variable** – A program that exchanges the values of two variables without using any extra variable.
+
+10. **Type Casting Program** – A program that demonstrates the conversion of one data type into another.
+
+11. **Positive, Negative, or Zero** – A program that determines whether a given number is positive, negative, or zero using decision-making statements.
+
+12. **Largest of Two Numbers** – A program that compares two numbers and displays the greater one.
+
+13. **Largest of Three Numbers** – A program that compares three numbers and displays the largest value.
+
+14. **Even or Odd Number** – A program that checks whether a given number is even or odd.
+
+15. **Leap Year Program** – A program that checks whether a given year is a leap year or not.
+
+16. **Vowel or Consonant** – A program that checks whether an entered alphabet is a vowel or a consonant.
+
+17. **Alphabet, Digit, or Special Symbol** – A program that identifies whether the entered character is an alphabet, a digit, or a special symbol.
+
+18. **Grade Calculation Program** – A program that assigns grades to students based on their obtained marks.
+
+19. **Greatest Among Four Numbers** – A program that compares four numbers and displays the greatest value.
+
+20. **Greater Number Using Ternary Operator** – A program that finds the greater of two numbers using the conditional (ternary) operator.
+
+21. **Menu-Driven Calculator Using Switch** – A program that performs arithmetic operations through a menu using the `switch` statement.
+
+22. **Display Day of the Week** – A program that displays the name of the day according to the entered day number using the `switch` statement.
+
+23. **Display Month Name** – A program that displays the month name according to the entered month number using the `switch` statement.
+
+24. **Vowel Check Using Switch** – A program that checks whether an entered character is a vowel using the `switch` statement.
+
+25. **Algorithm and Flowchart for Addition** – An exercise to design the algorithm and flowchart for adding two numbers before writing the program.
+
+26. **Algorithm and Flowchart for Largest of Two Numbers** – An exercise to design the algorithm and flowchart for finding the larger of two numbers.
+
+27. **Algorithm and Flowchart for Even or Odd** – An exercise to design the algorithm and flowchart for checking whether a number is even or odd.
+
+28. **Algorithm and Flowchart for Area of Circle** – An exercise to design the algorithm and flowchart for calculating the area of a circle.
+
+29. **Dry Run for Largest of Three Numbers** – A manual step-by-step execution of the program to verify the logic for finding the largest of three numbers.
+
+30. **Dry Run for Calculator Program** – A manual execution of the calculator program to understand and verify its working step by step.
+

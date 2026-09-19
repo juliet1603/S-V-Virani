@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+.logo{
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 15px;
+    font-weight: 650px;
+}
+.home{
+    padding-left: 730px;
+    padding-top: 15px;
+}
+.nav{
+    padding-left: 2%;
+}
+h1{
+    text-transform: capitalize;
+    margin-top:80px;
+    margin-left: 500px;
+}
+.tagline{
+    color: #6A6866;
+    margin-left: 470px;
+    margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+div{
+    height: 450px;
+    width: 300px;
+    border: black solid;
+}
+h2{
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+img{
+    margin-left: 50px;
+}
+h3{
+    margin-left: 50px;
+}
+
+div:hover{
+    
+}
