@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini calculator.</title>
+    <script>
+        function Addition(){
+            first = parseFloat(mini.First.value);
+            second = parseFloat(mini.Second.value);
+            // addition = first + second;
+            document.write(first + second);
+        }
+        function Subtraction(){
+            first = parseFloat(mini.First.value);
+            second = parseFloat(mini.Second.value);
+            document.write(first - second);
+        }
+        function Multiplication(){
+            first = parseFloat(mini.First.value);
+            second = parseFloat(mini.Second.value);
+            document.write(first * second);
+        }
+        function Division(){
+            first = parseFloat(mini.First.value);
+            second = parseFloat(mini.Second.value);
+            document.write(first / second);
+        }
+    </script>
+</head>
+<body>
+    <form name="mini">
+        <label for="First">Enter Firstnumber :</label> <input type="number" name="First"> <br>
+        <label for="Second">Enter Secondnumber :</label> <input type="number" name="Second">
+        <input type="button" name="btn1" value="Addition" onclick="Addition()">
+        <input type="button" name="btn1" value="Subtraction" onclick="Subtraction()">
+        <input type="button" name="btn1" value="Multiplication" onclick="Multiplication()">
+        <input type="button" name="btn1" value="Division" onclick="Division()">
+    </form>
+</body>
+</html>
