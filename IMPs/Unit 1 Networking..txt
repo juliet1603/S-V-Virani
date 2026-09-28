@@ -1,0 +1,27 @@
+Unit 1 Networking.
+
+types of computer network.
+types of websites.
+http protocol
+dns
+domain name system or domain name server.
+email.
+
+Unit Html.
+
+html document structure.
+html file structure.
+explain table tag.
+explain form.
+explain list.
+explain audio & video tag.
+
+Unit 3 CSS :
+
+css selector .
+types of css.
+css syntax.
+media quarry.
+transform .
+transitions.
+gradian.
