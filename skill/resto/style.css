@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    width: 100%;
+    background-color:white;
+    height: 75px;
+    display: flex;
+    gap: 15px;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    text-transform: uppercase;
+}
+.nav{
+    text-transform: capitalize;
+    display: flex;
+    gap: 20px;
+}
+a{
+    /* display: flex; */
+    color:black;
+    text-decoration: none;
+}
+
+.fi{
+    color: green;
+}
+
+.se{
+    color:gold;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+}
+
+.hero{
+    height: 550px;
+    width: 100%;
+background-image: url(assets/restaurant\ background-image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+h3{
+    position: absolute;
+    color: coral;
+    left: 90px;
+    top: 100px;
+}
+
+h1{
+    position: absolute;
+    top :130px;
+    left: 100px;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+@media(min-width:320px) and (max-width:767px){
+
+}
