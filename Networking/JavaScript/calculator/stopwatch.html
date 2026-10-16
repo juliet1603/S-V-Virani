@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var time = 0;
+        var interval;
+        function start_timer() {
+            interval = setInterval(()=>{time++;
+                document.getElementById("timer").innerText=time;
+            },1000);
+        }
+        function stop_timer(){
+            clearInterval(interval);
+        }
+        function reset_timer(){
+            clearInterval(interval);
+            time = 0;
+            document.getElementById("timer").innerText=time;
+        }
+    </script>
+</head>
+<body>
+    <h2>Stop Watch</h2>
+    <p id="timer">0</p>
+    <button onclick="start_timer()">Start</button>
+    <button onclick="stop_timer()">Stop</button>
+    <button onclick="reset_timer()">Reset</button>
+</body>
+</html>

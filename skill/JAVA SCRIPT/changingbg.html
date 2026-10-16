@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bg">
+    <button onclick="Pink()">Pink</button>
+    <button onclick="Red()">red</button>
+    <button onclick="Black()">black</button>
+    <button onclick="Yellow()">yellow</button>
+    <p>Hello World</p>
+
+    <script>
+        function Pink() {
+            document.getElementById("bg").style.backgroundColor="pink";
+            document.getElementById("bg").style.textDecoration="underline"
+        }
+
+        function Red(){
+            document.getElementById("bg").style.backgroundColor="red";
+            document.getElementById("bg").style.textDecoration="underline"
+        }
+
+        function Black(){
+            document.getElementById("bg").style.backgroundColor="black";
+            document.getElementById("bg").style.textDecoration="underline"
+            document.getElementById("bg").style.color="white"
+        }
+
+        function Yellow(){
+            document.getElementById("bg").style.backgroundColor="yellow";
+            document.getElementById("bg").style.textDecoration="underline"
+        }
+    </script>
+</body>
+</html>

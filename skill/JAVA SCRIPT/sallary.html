@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="totle()">check your</button>
+    <p id="dis"></p>
+    <script>
+        var sall = 28000;
+        var da = sall*10/100;
+        var hra = sall*20/100;
+        sall += da + hra;
+        function totle(){
+            document.getElementById("dis").innerHTML=sall;
+        }
+    </script>
+</body>
+</html>

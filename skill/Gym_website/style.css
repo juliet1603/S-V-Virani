@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 46px;
+    /* background-color: black; */
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    border: black 2px solid;
+}
+.logo{
+    background-color: black;
+    color: white;
+    width: 16%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+.ico{
+    display: none;
+}
+.nav{
+    width: 81%;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    align-items: center;
+}
+.nav , a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.hero{
+    width: 100%;
+    height: 550px;
+    background-image: url(Assets/bg1.avif);
+    
+    position: relative;
+}
+
+h1{
+    width: 270px;
+    color:white;
+    position: absolute;
+    font-size: 40px;
+    top: 80px;
+    left:280px;
+}
+
+.b1{
+    padding: 8px 22px;
+    position:absolute;
+    left: 280px;
+    top:270px;
+    border-radius: 2px;
+    background-color: tan;
+    cursor: pointer;
+}
+
+.b1:hover{
+    background-color: white;
+}
+
+
+@media(min-width:320px) and (max-width:767px){
+    .nav , a{
+        display: none;
+    }
+    .logo{
+        width: 60%;
+        font-size: xx-large;
+    }
+    .ico{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    align-items: center;
+    font-size: xx-large;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+
+}
