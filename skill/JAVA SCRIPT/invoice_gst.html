@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gst Invoice</h1>
+    <button onclick="Total()">Chack Price</button>
+    <p id="dis"></p>
+
+    <script>
+        let I1 = 50;
+        let I2 = 60;
+        let I3 = 70;
+
+        I1 *= 3;
+        I2 *= 2;
+        I3 *= 4;
+
+        let subtotal = I1 + I2 + I3;
+
+        function Total() {
+            let Gst = subtotal * 18 /100;
+            let final = subtotal + Gst;
+            document.getElementById("dis").innerHTML=final;
+        }
+
+    </script>
+</body>
+</html>
