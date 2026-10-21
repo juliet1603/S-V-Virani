@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="middel">Middel Name :</label>
+        <input type="text" name="middel" id="middel">
+        <label for="last">Last Name :</label>
+        <input type="text" name="last" id="last">
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email">
+        <label for="number">Number :</label>
+        <input type="number" name="number" id="number">
+        <label for="pass">password :</label>
+        <input type="password" name="pass" id="pass">
+        <label for="cource">Type your cource : </label>
+        <input type="text" name="cource" id="cource">
+        <button type="submit" onclick="clc()">Submit</button>
+
+        <p id="result"></p>
+   
+
+    <script>
+        function clc() {
+            let name = document.getElementById("name").value;
+            let middel = document.getElementById("middel").value;
+            let last = document.getElementById("last").value;
+            let email = document.getElementById("email").value;
+            let number = document.getElementById("number").value;
+            let pass = document.getElementById("pass").value;
+            let cource = document.getElementById("cource").value;
+        
+            document.getElementById("result").innerHTML = "Full name is : " + name + middel + last + "<br>" + "Your Email is : "+ email + "<br>" + "Your Number is : "+ number + "<br>" + pass + "<br>"+ "Your Cource is "+ cource;
+        }
+    </script>
+</body>
+</html>
