@@ -1,0 +1,147 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 15px;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.container {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 35px;
+  background-color: #1e293b;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #60a5fa;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #475569;
+  border-radius: 8px;
+  background-color: #0f172a;
+  color: white;
+  font-size: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Focus styling */
+input:focus,
+textarea:focus {
+  border-color: #60a5fa;
+  outline: none;
+}
+
+/* Invalid fields */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+/* Valid fields */
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+/* First input styling */
+input:first-of-type {
+  border-radius: 14px;
+}
+
+/* Availability group */
+.radio-group {
+  border: 1px solid #475569;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 10px 0;
+}
+
+.radio-group legend {
+  color: #93c5fd;
+  font-weight: bold;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.radio-group input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #94a3b8;
+  border-radius: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Checked radio styling */
+.radio-group input[type="radio"]:checked {
+  border-color: #60a5fa;
+  background-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.3);
+}
+
+/* Change selected label color */
+.radio-group input[type="radio"]:checked + label {
+  color: #60a5fa;
+}
+
+/* Submit button */
+button {
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+  background-color: #1d4ed8;
+}
